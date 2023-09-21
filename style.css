@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+ padding:10px;
+display: grid;
+grid-template-columns: 2fr 3fr 2fr;
+gap: 15px;
+height: inherit;
+background: linear-gradient(to left top, white, skyblue, blue);
+font-size: 18px;
+}
+/*design for cellphones*/
+@media only screen and (min-width: 600px){
+    .image
+{
+    position: relative;
+    height:300px;
+    width:300px;
+}
+.profile-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: 50%;
+    box-shadow: black;
+    border-radius: 500px;
+    box-shadow: 0 5px 20px black;
+    
+}
+
+    .div1{
+        padding:2%;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        align-items: center;
+    }
+    .div2{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 5px 20px black;
+    }
+    .p{
+        padding: 0 0 0 20px;
+        text-align: left;
+    }
+    .div3{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        box-shadow: 0 5px 20px black;
+    }
+    .div4{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        box-shadow: 0 5px 20px black;
+    }
+    
+}
+/*design for tablets*/
+@media only screen and (min-width: 768px){
+    .image
+    {
+        position: relative;
+        height:400px;
+        width:400px;
+    }
+    .profile-pic{
+        width: 100%;
+        height: 100%;
+        object-fit: 50%;
+        box-shadow: black;
+        border-radius: 500px;
+        box-shadow: 0 5px 20px black;
+        
+    }
+    
+        .div1{
+            padding:2%;
+            grid-column: 1/3;
+            grid-row: 1/2;
+            align-items: center;
+        }
+        .div2{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 5px 20px black;
+        }
+        .p{
+            padding: 0 0 0 20px;
+            text-align: left;
+        }
+        .div3{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            box-shadow: 0 5px 20px black;
+        }
+        .div4{
+            grid-column: 3/4;
+            grid-row: 2/3;
+            box-shadow: 0 5px 20px black;
+        }
+       
+}
+/*design for laptops*/
+@media only screen and (min-width: 992px){
+    .image
+{
+    position: relative;
+    height:2fr;
+    width:2fr;
+}
+.profile-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: 50%;
+    box-shadow: black;
+    border-radius: 500px;
+    box-shadow: 0 5px 20px black;
+    
+}
+
+    .div1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        align-items: center;
+    }
+    .div2{
+        padding: 2%;
+        grid-column: 2/4;
+        grid-row: 1/2;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 5px 20px black;
+    }
+    .p{
+        padding: 0 0 0 50px;
+        text-align: left;
+    }
+    .div3{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        box-shadow: 0 5px 20px black;
+    }
+    .div4{
+        grid-column: 3/4;
+        grid-row: 2/3;
+        box-shadow: 0 5px 20px black;
+    }
+    
+}
+/*design for large screen*/
+@media only screen and (min-width: 1200px){
+    .image
+    {
+        position: relative;
+        height:2fr;
+        width:2fr;
+    }
+    .profile-pic{
+        width: 100%;
+        height: 100%;
+        object-fit: 50%;
+        box-shadow: black;
+        border-radius: 500px;
+        box-shadow: 0 5px 20px black;
+        
+    }
+    
+        .div1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            align-items: center;
+        }
+        .div2{
+            padding: 2%;
+            grid-column: 2/4;
+            grid-row: 1/2;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 5px 20px black;
+        }
+        .p{
+            padding: 0 0 0 50px;
+            text-align: left;
+        }
+        .div3{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            box-shadow: 0 5px 20px black;
+        }
+        .div4{
+            grid-column: 3/4;
+            grid-row: 2/3;
+            box-shadow: 0 5px 20px black;
+        }
+    
+}
