@@ -13,7 +13,7 @@ background: linear-gradient(to left top, white, skyblue, blue);
 font-size: 18px;
 }
 /*design for cellphones*/
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 400px){
     .image
 {
     position: relative;
